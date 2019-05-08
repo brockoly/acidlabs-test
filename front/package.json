@@ -1,0 +1,24 @@
+{
+  "name": "acidlabs-test",
+  "version": "0.1.0",
+  "description": "Made to get the position Full Stack Developer at Acid Labs",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "google-map-react": "^1.1.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-modal": "^3.8.1",
+    "react-scripts": "0.9.5",
+    "react-spinner-material": "^1.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "docker:build": "docker-compose build web",
+    "docker:run": "docker-compose up web"
+  }
+}

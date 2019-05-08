@@ -1,0 +1,23 @@
+# docker-compose.yml
+
+version: '3.4'
+
+services:
+  redis:
+    image: redis:latest
+    expose: 
+      - 6379
+  api:
+    build:
+      context: .
+      dockerfile: ./docker/prod/Dockerfile
+    environment:
+      - NODE_ENV=production
+    links:
+      - redis
+    command: npm start
+    ports:
+      - 5000:5000
+    volumes:
+      - .:/app
+      
