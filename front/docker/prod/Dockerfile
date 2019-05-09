@@ -5,6 +5,6 @@ WORKDIR /app
 COPY /src /app/src
 COPY ["package.json", "package-lock.json*", "./"]
 
-RUN npm install --production --silent && mv node_modules ../
+RUN npm install
 
 EXPOSE 3000
