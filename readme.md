@@ -27,11 +27,6 @@ Front will run on `localhost:3000`
 
 This will boot the front and api in your local machine using docker
 
-## Aditional comments
-
-A demo of the web app is also available in [link](www.google.com).
-
-
 ## Authors
 
 * **Andrés Meneses** - [brockoly](https://github.com/brockoly)
