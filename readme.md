@@ -22,6 +22,9 @@ npm run docker:build
 npm run docker:run
 ```
 
+API will run on `localhost:5000`
+Front will run on `localhost:3000`
+
 This will boot the front and api in your local machine using docker
 
 ## Aditional comments
